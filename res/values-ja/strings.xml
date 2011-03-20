@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- user preference -->
+    <string name="preference_name_category">名前 (必須)</string>
+
+    <!-- family name -->
+    <string name="family_name">姓</string>
+    <string name="family_name_summary">姓を入力してください</string>
+    <!-- family name -->
+    <string name="family_alt_name">姓（よみがな）</string>
+    <string name="family_alt_name_summary">姓（よみがな）を入力してください。</string>
+
+    <!-- given name -->
+    <string name="given_name">名</string>
+    <string name="given_name_summary">名を入力してください。</string>
+    <!-- given name -->
+    <string name="given_alt_name">名（よみがな）</string>
+    <string name="given_alt_name_summary">名（よみがな）を入力してください。</string>
+
+</resources>

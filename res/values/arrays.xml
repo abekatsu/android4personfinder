@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="source_entries">
+        <item>This is a new record.</item>
+        <item>This record is copied from another source.</item>
+    </string-array>
+    
+    <string-array name="source_values">
+        <item>0</item> <!-- This is a new record -->
+        <item>1</item> <!-- This record is copied from another source. -->
+    </string-array>
+    
+    <string-array name="status_entries">
+        <item>Unspecified.</item>
+        <item>I am seeking information.</item>
+        <item>I am this person.</item>
+        <item>I have received information that this person is alive.</item>
+        <item>I have reason to think this person is missing.</item>
+        <item>I have received information that this person is dead.</item>
+    </string-array>
+    <string-array name="status_values">
+        <item>unspecified</item>
+        <item>seeking</item>
+        <item>myself</item>
+        <item>alive_information</item>
+        <item>reason_missing</item>
+        <item>dead_information</item>
+    </string-array>
+    
+    <string-array name="personally_talked_entries">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="personally_talked_values">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    
+</resources>

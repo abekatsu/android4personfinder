@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preference_name_category">
+        <EditTextPreference
+            android:singleLine="true"
+            android:key="@string/family_name_key"
+            android:title="@string/family_name"
+            android:summary="@string/family_name_summary" />
+        <EditTextPreference
+            android:singleLine="true"
+            android:key="@string/given_name_key"
+            android:title="@string/given_name"
+            android:summary="@string/given_name_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_home_address_category">
+        <EditTextPreference
+            android:singleLine="true"
+            android:key="@string/street_name_key"
+            android:title="@string/street_name"
+            android:summary="@string/street_name_summary" />
+        <EditTextPreference
+            android:singleLine="true"
+            android:key="@string/neighborhood_key"
+            android:title="@string/neighborhood"
+            android:summary="@string/neighborhood_summary" />
+        <EditTextPreference
+            android:singleLine="true"
+            android:key="@string/city_key"
+            android:title="@string/city"
+            android:summary="@string/city_summary" />
+        <EditTextPreference
+            android:singleLine="true"
+            android:key="@string/state_key"
+            android:title="@string/state"
+            android:summary="@string/state_summary" />
+        <EditTextPreference
+            android:singleLine="true"
+            android:key="@string/zipcode_key"
+            android:title="@string/zipcode"
+            android:summary="@string/zipcode_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_description_category">
+        <EditTextPreference
+            android:key="@string/description_key"
+            android:title="@string/description"
+            android:summary="@string/description_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_photo_category">
+        <EditTextPreference
+            android:key="@string/photo_key"
+            android:title="@string/photo"
+            android:summary="@string/photo_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_source_category">
+        <ListPreference
+            android:key="@string/source_key"
+            android:defaultValue="@string/default_source_value"
+            android:title="@string/source"
+            android:summary="@string/source_summary"
+            android:dialogTitle="@string/source_dialogTitle"
+            android:entries="@array/source_entries"
+            android:entryValues="@array/source_values" />
+    </PreferenceCategory>
+    <!-- Status -->
+    <!-- <PreferenceScreen android:title="@string/preference_status_title"> -->
+    <PreferenceCategory android:title="@string/preference_list_status_title">
+        <ListPreference
+            android:key="@string/status_key"
+            android:defaultValue="@string/default_status_value"
+            android:title="@string/status"
+            android:summary="@string/status_summary"
+            android:dialogTitle="@string/status_dialogTitle"
+            android:entries="@array/status_entries"
+            android:entryValues="@array/status_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_message_title">
+        <EditTextPreference
+            android:singleLine="false"
+            android:key="@string/message_key"
+            android:title="@string/message"
+            android:summary="@string/message_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_last_known_location_title">
+        <EditTextPreference
+            android:singleLine="true"
+            android:key="@string/last_known_location_key"
+            android:title="@string/last_known_location"
+            android:summary="@string/last_known_location_summary" />
+    </PreferenceCategory>
+        <PreferenceCategory android:title="@string/preference_personally_talked_title">
+        <ListPreference
+            android:key="@string/personally_talked_key"
+            android:defaultValue="@string/default_personally_talked_value"
+            android:title="@string/personally_talked"
+            android:summary="@string/personally_talked_summary"
+            android:dialogTitle="@string/personally_talked_dialogTitle"
+            android:entries="@array/personally_talked_entries"
+            android:entryValues="@array/personally_talked_values" />
+    </PreferenceCategory>
+    
+    <!--  </PreferenceScreen> -->
+</PreferenceScreen>

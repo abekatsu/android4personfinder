@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PersonFinderActivity!</string>
+    <string name="app_name">AndroidPersionFinder</string>
+    <string name="preference_identify_title">Identify who you have information about</string>
+    <!-- user preference -->
+    <!-- name -->
+    <string name="preference_name_category">Name (required)</string>
+    <!-- family name -->
+    <string name="family_name_key">_family_name_key</string>
+    <string name="family_name">Family Name</string>
+    <string name="family_name_summary">Enter the person\'s family name</string>
+    <string name="family_alt_name_key">_family_alt_name_key</string>
+    <string name="family_alt_name">Alternate Family names</string>
+    <string name="family_alt_name_summary">Enter the alternate Family names</string>
+    
+    <!-- given name -->
+    <string name="given_name_key">_given_name_key</string>
+    <string name="given_name">Given Name</string>
+    <string name="given_name_summary">Enter the person\'s given name</string>
+    <string name="given_alt_name_key">_given_alt_name_key</string>
+    <string name="given_alt_name">Alternate Given names</string>
+    <string name="given_alt_name_summary">Enter the alternate Given names</string>
+    
+    <!-- Home Address -->
+    <string name="preference_home_address_category">Home Address</string>
+    <string name="preference_home_address_summary">Where is this person from?</string>
+    <!-- Street name -->
+    <string name="street_name_key">_street_name_key</string>
+    <string name="street_name">Street name</string>
+    <string name="street_name_summary">Street name only, no number</string>
+    <!-- Neighborhood -->
+    <string name="neighborhood_key">_neighborhood_key</string>
+    <string name="neighborhood">Neighborhood</string>
+    <string name="neighborhood_summary">Enter the Person\'s neighborhood</string>
+    <!-- City -->
+    <string name="city_key">_city_key</string>
+    <string name="city">City</string>
+    <string name="city_summary">Enter the Person\'s city</string>
+    <!-- Province or state -->
+    <string name="state_key">_state_key</string>
+    <string name="state">Province or state</string>
+    <string name="state_summary">Enter the Person\'s province or state</string>
+    <!-- Postal or zip code -->
+    <string name="zipcode_key">_zipcode_key</string>
+    <string name="zipcode">Postal or zip code</string>
+    <string name="zipcode_summary">Enter the Person\'s postal or zip code</string>
+    
+    <!-- Description -->
+    <string name="preference_description_category">Description</string>
+    <string name="description_key">_description_key</string>
+    <string name="description">Description</string>
+    <string name="description_summary">Describe how to identify this person</string>
+    
+    <!-- Photo -->
+    <string name="preference_photo_category">photo</string>
+    <string name="photo_key">_photo_key</string>
+    <string name="photo">(TBD) Photo</string>
+    <string name="photo_summary">(TBD) If you have a photo of this person, upload it</string>
+    
+    <!-- Source -->
+    <string name="preference_source_category">Source of this record (required)</string>
+    <string name="source_key">_source_key</string>
+    <string name="source">Source of this record</string>
+    <string name="default_source_value">0</string>
+    <string name="source_summary">Where did this information come from?</string>
+    <string name="source_dialogTitle">Select the source of this record</string>
+    
+    <string name="preference_status_title">Tell us the status of this person</string>
+    <!-- status -->
+    <string name="preference_list_status_title">Status of this person</string>
+    <string name="status_key">_status_key</string>
+    <string name="default_status_value">Unspecified.</string>
+    <string name="status">Status</string>
+    <string name="status_summary">Select the status of this person</string>
+    <string name="status_dialogTitle">Status of this person</string>
+    
+    <!-- message -->
+    <string name="preference_message_title">Message (required)</string>
+    <string name="message_key">_message_key</string>
+    <string name="message">Message</string>
+    <string name="message_summary">A message for this person or others seeking this person</string>
+    
+    <!--  last known location -->
+    <string name="preference_last_known_location_title">Last known location</string>
+    <string name="last_known_location_key">_last_known_location_key</string>
+    <string name="last_known_location">Last known location (TODO: select location via mapview)</string>
+    <string name="last_known_location_summary">Type an address or open the map below and indicate the location by moving the pin.</string>
+    
+    <!--  personally talked? -->
+    <string name="preference_personally_talked_title">Personally Talked? (required)</string>
+    <string name="personally_talked_key">_personally_talked_key</string>
+    <string name="default_personally_talked_value">No</string>
+    <string name="personally_talked">Have you personally talked with this person AFTER the disaster? (required)</string>
+    <string name="personally_talked_summary"></string>
+    <string name="personally_talked_dialogTitle">Have you personally talked with this person AFTER the disaster? (required)</string>
+
+</resources>
