@@ -8,9 +8,20 @@
             android:summary="@string/family_name_summary" />
         <EditTextPreference
             android:singleLine="true"
+            android:key="@string/family_alt_name_key"
+            android:title="@string/family_alt_name"
+            android:summary="@string/family_alt_name_summary" />
+        <EditTextPreference
+            android:singleLine="true"
             android:key="@string/given_name_key"
             android:title="@string/given_name"
             android:summary="@string/given_name_summary" />
+        <EditTextPreference
+            android:singleLine="true"
+            android:key="@string/given_alt_name_key"
+            android:title="@string/given_alt_name"
+            android:summary="@string/given_name_summary" />
+            
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/preference_home_address_category">
         <EditTextPreference
