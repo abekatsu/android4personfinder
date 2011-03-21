@@ -66,6 +66,26 @@
     <string name="source_summary">Where did this information come from?</string>
     <string name="source_dialogTitle">Select the source of this record</string>
     
+    <string name="preference_source_new_category">Source of this record (required)</string>
+    <!-- Source person -->
+    <string name="source_person_key">_source_person_key</string>
+    <string name="source_person">Your Name</string>
+    <string name="source_person_summary">Enter name of person who provides this source.</string>
+    <!-- Source person's phone number -->
+    <string name="source_person_phone_number_key">_source_person_phone_number_key</string>
+    <string name="source_person_phone_number">Your phone number</string>
+    <string name="source_person_phone_number_summary">Enter phone number of person who provides this source</string>
+    <!-- Source person's email address -->
+    <string name="source_person_email_address_key">_source_person_email_address_key</string>
+    <string name="source_person_email_address">Your e-mail address</string>
+    <string name="source_person_email_address_summary">Enter email address of person who provides this source</string>
+    
+    <!-- Original author -->
+    <string name="preference_source_copied_category">Source of this record (required)</string>
+    <string name="original_author_key">_original_author_key</string>
+    <string name="original_author">Original author\'s name</string>
+    <string name="original_author_summary">Enter original author\'s name</string>
+
     <string name="preference_status_title">Tell us the status of this person</string>
     <!-- status -->
     <string name="preference_list_status_title">Status of this person</string>
@@ -94,5 +114,8 @@
     <string name="personally_talked">Have you personally talked with this person AFTER the disaster? (required)</string>
     <string name="personally_talked_summary"></string>
     <string name="personally_talked_dialogTitle">Have you personally talked with this person AFTER the disaster? (required)</string>
+    
+    <!-- menu -->
+    <string name="menu_upload_info">Upload</string>
 
 </resources>

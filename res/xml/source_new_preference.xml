@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preference_source_new_category">
+        <EditTextPreference
+            android:id="@+id/source_person_id"
+            android:singleLine="true"
+            android:key="@string/source_person_key"
+            android:title="@string/source_person"
+            android:summary="@string/source_person_summary" />
+        <EditTextPreference
+            android:id="@+id/source_person_phone_number_id"
+            android:phoneNumber="true"
+            android:key="@string/source_person_phone_number_key"
+            android:title="@string/source_person_phone_number"
+            android:summary="@string/source_person_phone_number_summary" />
+        <EditTextPreference
+            android:id="@+id/source_person_email_address_id"
+            android:inputType="textEmailAddress"
+            android:key="@string/source_person_email_address_key"
+            android:title="@string/source_person_email_address"
+            android:summary="@string/source_person_email_address_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>
